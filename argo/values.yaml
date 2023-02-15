@@ -4,6 +4,6 @@
 # Declare variables to be passed into your templates.
 container:
   name: nginx
-  image: saintsinnerr/jenkins:36
+  image: nikolanikola/argocd:2
   restart: Always
-  labels: nginx-app
+  labels: app-test-1
